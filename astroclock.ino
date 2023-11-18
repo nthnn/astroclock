@@ -64,20 +64,24 @@ void drawImage() {
 
   switch(prevImg) {
     case 0:
-      display.drawBitmap(10, 1, bmp_astronaut, 44, 62, SH110X_WHITE);
-      break;
-
-    case 1:
       display.drawBitmap(0, 12, bmp_planet, 64, 46, SH110X_WHITE);
+      break;
+    
+    case 1:
+      display.drawBitmap(10, 1, bmp_astronaut, 44, 62, SH110X_WHITE);
       break;
 
     case 2:
       display.drawBitmap(0, 9, bmp_comet, 64, 49, SH110X_WHITE);
       break;
+
+    case 3:
+      display.drawBitmap(9, 3, bmp_amongus, 46, 58, SH110X_WHITE);
+      break;
   }
 
   prevImg++;
-  if(prevImg == 3)
+  if(prevImg == 4)
     prevImg = 0;
 }
 
