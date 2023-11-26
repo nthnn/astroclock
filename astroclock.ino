@@ -86,12 +86,12 @@ void drawImage() {
 }
 
 void drawCalendar() {
-    DateTime now = rtc.now();
+  DateTime now = rtc.now();
   uint8_t hour = now.hour(),
     minute = now.minute(),
     second = now.second(),
     year = now.year(),
-    month = now.month(),
+    month = now.month() - 1,
     day = now.day();
 
   display.setTextSize(1);
