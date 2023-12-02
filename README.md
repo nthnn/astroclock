@@ -14,29 +14,12 @@ Astroclock is a cute desktop date and time display powered by an Arduino Nano an
 
 ## 🔭 Requirements
 
-1. **Arduino Nano**:
-
-    The brain of the Astroclock, responsible for running the code and controlling the connected modules. Ensure you have a compatible Arduino Nano board.
-
-2. **SH1106 OLED Display**:
-
-    A 1.3" inch monochromatic OLED display that serves as the visual output for Astroclock. Connect this display to the Arduino Nano following the provided schematic.
-
-3. **DS1307 Real-Time Clock (RTC) Module**:
-
-    The DS1307 RTC module is crucial for accurate timekeeping in Astroclock. It keeps track of the date and time even when the main power is off. Wire it to the Arduino Nano as per the schematic.
-
-4. **Acrylic Box (5.5cm Length)**:
-
-    The compact and stylish cubic acrylic box serves as the housing for Astroclock. Ensure it has dimensions of 5.5cm in length to accommodate the components comfortably.
-
-5. **Jumper Wire Connectors**:
-
-    Use appropriate wires and connectors to establish connections between the Arduino Nano, SH1106 OLED display, and DS1307 RTC module. Refer to the schematic for correct wiring.
-
-6. **Power Supply**:
-
-    Provide a suitable power supply for the Arduino Nano. This could be a 3.7V LiPo connected to 5V and GND pins respectively to the Arduino Nano.
+1. **Arduino Nano** - The brain of the Astroclock, responsible for running the code and controlling the connected modules. Ensure you have a compatible Arduino Nano board.
+2. **SH1106 OLED Display** - A 1.3" inch monochromatic OLED display that serves as the visual output for Astroclock.
+3. **DS1307 Real-Time Clock (RTC) Module** - The DS1307 RTC module is crucial for accurate timekeeping in Astroclock. It keeps track of the date and time even when the main power is off.
+4. **Acrylic Box (5.5cm Length)** - The compact and stylish cubic acrylic box serves as the housing for Astroclock. Ensure it has dimensions of 5.5cm in length to accommodate the components comfortably.
+5. **Jumper Wire Connectors** - Use appropriate wires and connectors to establish connections between the Arduino Nano, SH1106 OLED display, and DS1307 RTC module.
+6. **Power Supply** - Provide a suitable power supply for the Arduino Nano. This could be a 3.7V LiPo connected to 5V and GND pins respectively to the Arduino Nano.
 
 ## 🛰 Setup and Configuration
 
